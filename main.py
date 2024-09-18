@@ -6,7 +6,7 @@ intents = discord.Intents.default()
 intents.members = True  # Enable member-related events
 
 bot = commands.Bot(command_prefix='!', intents=intents)
-
+#
 TOKEN = 'ODgwMjE5NzY0MTM0NDA4MjMy.GyPyfw.5u5ouqWgLvgNGDwYTwShGzPVDU56eK6GXFguZM'
 GUILD_ID = 1278446879801212999  # Replace with your guild ID
 ROLE_NAME = 'Member'  # Replace with the name of the role you want to assign
